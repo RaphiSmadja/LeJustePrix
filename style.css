@@ -1,0 +1,79 @@
+@font-face{
+    font-family: 'EvilEmpire';
+    src: url('polices/EvilEmpire.ttf') format('truetype');
+}
+
+body {
+    max-width: 960px;
+    margin: auto;
+   	-webkit-transition: background-color 2s ease-out;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+}
+
+ul {
+	background: #ffffff;
+	padding: 0px;
+	margin: 0px;
+	opacity: 0.7;
+	font-family: EvilEmpire;
+	font-size: 18px;
+	padding: 10px;
+}
+
+section {
+	background-color: #ffffff;
+	opacity: 0.7;
+	margin: 20px 0px;
+	padding: 20px;
+	font-family: Arial;
+}
+
+section img {
+	margin: 20px auto;
+	display: block;
+}
+
+li {
+	display: inline;
+	padding: 0px 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: cursive;
+	border-bottom: 3px dotted #000000;
+	display: inline-block;
+}
+
+footer {
+	background-color: #ffffff;
+	opacity: 0.7;
+	margin: 20px 0px;
+	padding: 20px;
+	font-family: cursive;
+
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}

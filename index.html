@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Le juste prix</title>
+</head>
+<body onload="randomColor()">
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">accueil</a></li>
+				<li><a href="contact.html">contact</a></li>
+				<li><a href="about.html">à propos</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<h1>Le jeu du juste prix</h1>
+		<p>
+			Bienvenue sur le jeu du juste prix. <br>
+			Ensemble nous avons réalisé un <b>super</b> jeu en langage c que vous pouvez télécharger ! <br>
+		</p>
+		<img src="images/game.jpg">
+		<a href="media/le_juste_prix.exe" download>
+			<button class="btn"><i class="fa fa-download"></i>Télécharger</button>
+		</a>
+	</section>
+	<footer>
+		Copyright © 2020 Raphael Smadja
+	</footer>
+</body>
+</html>
+<script>
+	function randomColor() {
+		r = Math.floor(Math.random() * (256));
+	 	g = Math.floor(Math.random() * (256));
+	 	b = Math.floor(Math.random() * (256));
+	 	document.body.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
+	}
+	window.setInterval(function(){
+		randomColor();
+	},1000); 
+</script>
